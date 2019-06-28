@@ -1,0 +1,96 @@
+<html>
+
+<head></head>
+
+<body>
+<div class="card-container">
+    <div class="trangle-bottom"></div>
+    <div class="trangle-top"></div>
+    <div class="center-num-cont">
+        89
+    </div>
+    <div class="left-top-num">89</div>
+    <div class="right-bot-num">89</div>
+</div>
+
+</body>
+<style>
+    .trangle-bottom {
+        width: 0;
+        height: 0;
+        border: 80px solid;
+        border-color: transparent #ddbd8b #ddbd8b transparent;
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        z-index: 3;
+    }
+
+    .trangle-top {
+        width: 0;
+        height: 0;
+        border: 80px solid;
+        border-color: #ddbd8b transparent transparent #ddbd8b;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        z-index: 3;
+    }
+
+    .card-container {
+        width: 630px;
+        height: 890px;
+        background: #ddbd8b;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .center-num-cont {
+        background: #fafafa;
+        position: absolute;
+        width: 590px;
+        height: 850px;
+        top: 20px;
+        left: 20px;
+        z-index: 2;
+        font-size: 300px;
+        text-align: center;
+        line-height: 750px;
+        font-family: sans-serif;
+    }
+
+    .left-top-num {
+        font-size: 70px;
+        position: absolute;
+        top: 45px;
+        left: 45px;
+        width: 90px;
+        height: 90px;
+        text-align: center;
+        background: #dce0e6;
+        border-radius: 60px;
+        border: 4px solid #af7746;
+        z-index: 4;
+        color: #af7746;
+        line-height: 90px;
+        font-family: sans-serif;
+    }
+
+    .right-bot-num {
+        font-size: 70px;
+        position: absolute;
+        bottom: 45px;
+        right: 45px;
+        width: 90px;
+        height: 90px;
+        text-align: center;
+        background: #dce0e6;
+        border-radius: 60px;
+        border: 4px solid #af7746;
+        z-index: 4;
+        color: #af7746;
+        line-height: 90px;
+        font-family: sans-serif;
+    }
+</style>
+</html>
